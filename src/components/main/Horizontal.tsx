@@ -15,7 +15,6 @@ export const Horizontal: React.FC<HorizontalItemProps> = ({
         >
             <div className="text-center">
                 <h2 className="text-4xl font-bold mb-4">{title}</h2>
-                <p className="text-lg">좌우로 스와이프하거나 스크롤하세요</p>
             </div>
         </div>
     );
