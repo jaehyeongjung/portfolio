@@ -9,8 +9,6 @@ import ShootingStars from "@/components/main/ShootingStars";
 import Terminal from "@/components/main/Terminal";
 import TeamCards from "@/components/main/TeamCards";
 
-
-
 // 경로로 바로가게 말고 모달 하나 띄워서 ? 확실히 이동할거야 ? {} 경로 뚫어놓고 my github? or my Velog? or email은 주소 모달 띄워주기
 // 학력 파트?  자기소개 파트가 1순위 my identity ?  한눈에 보이게 ? 나란 사람이 어떤 사람인지...
 // how to learn? 형식으로? 아니면 내가 뭘 할 수 있는지 명확하게 ? 아님 뭘 이해하고 있는지?
@@ -21,7 +19,6 @@ import TeamCards from "@/components/main/TeamCards";
 //https://wsss.tistory.com/2087 프로젝트 소개 카드로 ?
 
 // https://wsss.tistory.com/2094 -> 피어리뷰 카드
-
 
 const tabItems = [
     {
@@ -108,7 +105,7 @@ export default function Home() {
             </Vertical>
 
             <Vertical>
-      
+                <HorizontalScrollSection></HorizontalScrollSection>
             </Vertical>
 
             <Vertical className="relative h-screen flex justify-center items-center bg-black">
