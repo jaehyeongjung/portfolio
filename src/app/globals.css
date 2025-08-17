@@ -6,7 +6,7 @@
 }
 
 h1 {
-    @apply text-[80px] font-bold text-yellow-400 relative px-2 transition-all duration-1000;
+    @apply text-[80px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
 }
@@ -42,7 +42,7 @@ h1:hover::after {
 }
 
 h2 {
-    @apply text-[40px] font-bold text-yellow-400 relative px-2 transition-all duration-1000;
+    @apply text-[40px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
 }
@@ -53,7 +53,7 @@ h1::after {
     position: absolute;
     height: 7px;
     width: 0;
-    background: #ffd800;
+    background: ghostwhite;
     opacity: 0.3;
     left: 50%;
     transition: all 0.3s;
@@ -79,7 +79,7 @@ h2:hover::after {
 
 @media (max-width: 768px) {
     h1 {
-        @apply text-[60px] font-bold text-yellow-400 relative px-2 transition-all duration-1000;
+        @apply text-[60px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
         font-family: "Montserrat", sans-serif;
         letter-spacing: 0px;
     }
@@ -89,7 +89,7 @@ h2:hover::after {
     }
 
     h2 {
-        @apply text-[30px] font-bold text-yellow-400 relative px-2 transition-all duration-1000;
+        @apply text-[30px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
         font-family: "Montserrat", sans-serif;
         letter-spacing: 0px;
     }

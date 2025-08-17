@@ -17,7 +17,7 @@ export default function SocialIcons() {
       href={item.href}
       target={item.href.startsWith("http") ? "_blank" : undefined}
       rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-      className="group relative w-10 h-10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-145  hover:bg-white bg-yellow-400 rounded-full"
+      className="group relative w-10 h-10 flex items-center justify-center cursor-pointer transition-all duration-300 hover:scale-145  hover:bg-white bg-gray-200 rounded-full"
     >
       <Image
         src={item.src}

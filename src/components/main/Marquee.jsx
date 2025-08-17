@@ -14,7 +14,7 @@ const logos = [
 
 export default function Marquee() {
     return (
-        <article className="wrapper top-[-120px]">
+        <article className="wrapper mt-[-10] z-10 ">
             <div className="marquee">
                 <div className="marquee__group flex ">
                     {logos.map((logo, idx) => (
