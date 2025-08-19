@@ -50,7 +50,7 @@ const tabItems = [
             <div className="flex flex-col gap-5 text-sm mt-3 ml-1 sm:text-2xl sm:ml-10">
                 <p>2025.08.18 ~ 2025.11.21</p>
                 <p>현대홈쇼핑 DT 부서</p>
-                <p>Frontend 인턴</p>
+                <p>UI 개발 파트 인턴</p>
             </div>
         ),
     },

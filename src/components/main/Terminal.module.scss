@@ -16,6 +16,7 @@
   z-index: 1;
 }
 
+
 .header {
   background: #E0E8F0;
   height: 1.875rem;
@@ -69,7 +70,7 @@
 @media only screen and (max-width: 600px) {
   .terminalWindow {
     width: 90vw;
-    height: 50vh;
+    height: 60vh;
     top: 1vh;
   }
   .header {
