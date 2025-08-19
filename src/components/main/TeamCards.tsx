@@ -158,7 +158,7 @@ const TeamCards = () => {
                 </div>
 
                 {/* 모바일 가로 스크롤 */}
-                <div className="flex md:hidden gap-4 overflow-x-auto pb-4">
+                <div className="flex md:hidden gap-4 overflow-x-auto pb-10">
                     {teamMembers.map((member) => (
                         <div key={member.id} className="flex-shrink-0 w-72">
                             <TeamCard member={member} />

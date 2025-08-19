@@ -76,22 +76,32 @@ h2:hover::after {
     opacity: 1;
     left: 0;
 }
-
+ /* 인스타그램 css 봐둔거 모바일에서는 그거 적용하는게 날듯? 데스크탑에서hover...는 의미가 있다고보는데 모바일에서는 굳이? 그냥 ..시각적으로 */
 @media (max-width: 768px) {
     h1 {
-        @apply text-[60px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
+        @apply text-[30px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
         font-family: "Montserrat", sans-serif;
         letter-spacing: 0px;
     }
 
     h1:hover {
-        letter-spacing: 8px;
+        letter-spacing: 4px;
     }
 
     h2 {
-        @apply text-[30px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
+        @apply text-[15px] font-bold text-shadow-white relative px-2 transition-all duration-1000;
         font-family: "Montserrat", sans-serif;
         letter-spacing: 0px;
+    }
+    h2:hover {
+        letter-spacing: 0px;
+    }
+
+    h2:hover::before,
+    h2:hover::after {
+        width: 100%;
+        opacity: 1;
+        left: 0;
     }
 }
 

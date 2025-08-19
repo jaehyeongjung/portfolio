@@ -20,6 +20,8 @@ import TeamCards from "@/components/main/TeamCards";
 
 // https://wsss.tistory.com/2094 -> 피어리뷰 카드
 
+// se -> 모바일시 텍스트가 좀 큰거같은데.. 
+
 const tabItems = [
     {
         label: "Major",
